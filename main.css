@@ -1,0 +1,108 @@
+.form-box {
+    width: 600px;
+    margin: 150px auto 0 auto;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background: #136a8a;
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);
+    background: linear-gradient(to right, #267871, #136a8a);
+    border-radius: 20px;
+}
+
+.input-password-box {
+    position: relative;
+}
+
+.input-email,
+.input-password {
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.input-email {
+    width: 430px;
+}
+
+.input-password {
+    padding-right: 40px;
+}
+
+.open-input-value-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url("./images/padlock.png");
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.open-input-value-btn--on {
+    background-image: url("./images/padlock-unlock.png");
+}
+
+.login-btn {
+    margin-top: 20px;
+    padding: 10px 50px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-result-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    list-style: none;
+    background: #136a8a;
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);
+    background: linear-gradient(to right, #267871, #136a8a);
+}
+
+.user-item {
+    width: 300px;
+    margin: 0 10px 20px 10px;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.user-item-title {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+}
+
+.user-item-email-text {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.user-item-img {
+    width: 200px;
+    height: 200px;
+}
