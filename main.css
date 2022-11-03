@@ -36,12 +36,12 @@ form {
 
 .open-input-value-btn {
     position: absolute;
-    top: 5px;
+    top: 7px;
     right: 10px;
     padding: 0;
-    width: 30px;
-    height: 30px;
-    background-image: url("./images/padlock.png");
+    width: 25px;
+    height: 25px;
+    background-image: url("./images/lock.png");
     background-size: contain;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ form {
 }
 
 .open-input-value-btn--on {
-    background-image: url("./images/padlock-unlock.png");
+    background-image: url("./images/unlock.png");
 }
 
 .login-btn {
